@@ -14,6 +14,17 @@
 		BC71521F1C911B0A0072195F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC71521D1C911B0A0072195F /* LaunchScreen.storyboard */; };
 		BC71522A1C911B0A0072195F /* kinveyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7152291C911B0A0072195F /* kinveyTests.swift */; };
 		BC7152351C911B0A0072195F /* kinveyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7152341C911B0A0072195F /* kinveyUITests.swift */; };
+		BC7152431C911E640072195F /* KinveyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7152421C911E640072195F /* KinveyKit.framework */; };
+		BC7152451C911F1E0072195F /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7152441C911F1E0072195F /* Accounts.framework */; };
+		BC7152491C911F4A0072195F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7152461C911F4A0072195F /* CoreGraphics.framework */; };
+		BC71524A1C911F4A0072195F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7152471C911F4A0072195F /* CoreLocation.framework */; };
+		BC71524B1C911F4A0072195F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7152481C911F4A0072195F /* MobileCoreServices.framework */; };
+		BC71524D1C91209E0072195F /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC71524C1C91209E0072195F /* Social.framework */; };
+		BC71524F1C9121170072195F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC71524E1C9121170072195F /* Security.framework */; };
+		BC7152511C9121240072195F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7152501C9121240072195F /* SystemConfiguration.framework */; };
+		BC7152531C9123280072195F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7152521C9123280072195F /* WebKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		BC7152551C9123690072195F /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7152541C9123690072195F /* libsqlite3.0.tbd */; };
+		BCDC4BB91C9C710B00458B44 /* loggedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDC4BB81C9C710B00458B44 /* loggedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,18 @@
 		BC7152301C911B0A0072195F /* kinveyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kinveyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7152341C911B0A0072195F /* kinveyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kinveyUITests.swift; sourceTree = "<group>"; };
 		BC7152361C911B0A0072195F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC7152421C911E640072195F /* KinveyKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KinveyKit.framework; sourceTree = "<group>"; };
+		BC7152441C911F1E0072195F /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		BC7152461C911F4A0072195F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC7152471C911F4A0072195F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BC7152481C911F4A0072195F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		BC71524C1C91209E0072195F /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		BC71524E1C9121170072195F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BC7152501C9121240072195F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BC7152521C9123280072195F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		BC7152541C9123690072195F /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		BC7152561C9127D20072195F /* kinvey-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kinvey-Bridging-Header.h"; sourceTree = "<group>"; };
+		BCDC4BB81C9C710B00458B44 /* loggedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loggedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +77,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC7152551C9123690072195F /* libsqlite3.0.tbd in Frameworks */,
+				BC7152531C9123280072195F /* WebKit.framework in Frameworks */,
+				BC7152511C9121240072195F /* SystemConfiguration.framework in Frameworks */,
+				BC71524F1C9121170072195F /* Security.framework in Frameworks */,
+				BC71524D1C91209E0072195F /* Social.framework in Frameworks */,
+				BC7152491C911F4A0072195F /* CoreGraphics.framework in Frameworks */,
+				BC71524A1C911F4A0072195F /* CoreLocation.framework in Frameworks */,
+				BC71524B1C911F4A0072195F /* MobileCoreServices.framework in Frameworks */,
+				BC7152451C911F1E0072195F /* Accounts.framework in Frameworks */,
+				BC7152431C911E640072195F /* KinveyKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +110,16 @@
 		BC7152081C911B090072195F = {
 			isa = PBXGroup;
 			children = (
+				BC7152541C9123690072195F /* libsqlite3.0.tbd */,
+				BC7152521C9123280072195F /* WebKit.framework */,
+				BC7152501C9121240072195F /* SystemConfiguration.framework */,
+				BC71524E1C9121170072195F /* Security.framework */,
+				BC71524C1C91209E0072195F /* Social.framework */,
+				BC7152461C911F4A0072195F /* CoreGraphics.framework */,
+				BC7152471C911F4A0072195F /* CoreLocation.framework */,
+				BC7152481C911F4A0072195F /* MobileCoreServices.framework */,
+				BC7152441C911F1E0072195F /* Accounts.framework */,
+				BC7152421C911E640072195F /* KinveyKit.framework */,
 				BC7152131C911B0A0072195F /* kinvey */,
 				BC7152281C911B0A0072195F /* kinveyTests */,
 				BC7152331C911B0A0072195F /* kinveyUITests */,
@@ -103,6 +146,8 @@
 				BC71521B1C911B0A0072195F /* Assets.xcassets */,
 				BC71521D1C911B0A0072195F /* LaunchScreen.storyboard */,
 				BC7152201C911B0A0072195F /* Info.plist */,
+				BC7152561C9127D20072195F /* kinvey-Bridging-Header.h */,
+				BCDC4BB81C9C710B00458B44 /* loggedViewController.swift */,
 			);
 			path = kinvey;
 			sourceTree = "<group>";
@@ -260,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC7152171C911B0A0072195F /* ViewController.swift in Sources */,
+				BCDC4BB91C9C710B00458B44 /* loggedViewController.swift in Sources */,
 				BC7152151C911B0A0072195F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,10 +448,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = kinvey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.prekshakoirala.kinvey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "kinvey/kinvey-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -413,10 +465,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = kinvey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.prekshakoirala.kinvey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "kinvey/kinvey-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -487,6 +545,7 @@
 				BC71523B1C911B0A0072195F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC71523C1C911B0A0072195F /* Build configuration list for PBXNativeTarget "kinveyTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +554,7 @@
 				BC71523E1C911B0A0072195F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC71523F1C911B0A0072195F /* Build configuration list for PBXNativeTarget "kinveyUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +563,7 @@
 				BC7152411C911B0A0072195F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
